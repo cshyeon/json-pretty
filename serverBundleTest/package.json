@@ -1,0 +1,17 @@
+{
+  "name": "serverbundletest",
+  "version": "1.0.0",
+  "description": "- client에서 생성된 bundle 파일들에 대한 최종확인을 위한 웹서버",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.295.0",
+    "express": "^4.16.3"
+  }
+}
